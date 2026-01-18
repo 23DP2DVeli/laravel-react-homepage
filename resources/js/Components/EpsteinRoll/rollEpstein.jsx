@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import contentEpstein from "./epsteinLink.jsx";
-
+import '../../../css/container.css';
 
 export default function RollEpstein() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,8 +17,8 @@ export default function RollEpstein() {
   }, []);
 
   return (
-    <div>
-      <img src={contentEpstein[currentIndex]} alt="Slideshow" width={400} />
+    <div className="container">
+      <img src={contentEpstein[currentIndex]} alt="Slideshow"/>
     </div>
   );
 }
