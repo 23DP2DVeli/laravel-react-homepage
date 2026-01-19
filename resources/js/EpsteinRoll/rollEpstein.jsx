@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import contentEpstein from "./epsteinLink.jsx";
-import '../../../css/container.css';
+import "./container.css";
 
 export default function RollEpstein() {
     const [currentIndex, setCurrentIndex] = useState(0);
