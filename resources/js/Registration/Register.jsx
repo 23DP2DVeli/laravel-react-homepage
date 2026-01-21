@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function Register() {
+  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -31,7 +33,7 @@ export default function Register() {
       );
 
       alert(res.data.message);
-      window.location.href = res.data.redirect;
+      navigate(res.data.redirect || "/");
 
     } catch (err) {
       if (err.response?.data?.errors) {
@@ -89,7 +91,20 @@ export default function Register() {
 
       <button
         type="submit"
-        className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600 mt-2"
+        style={{
+          width: "100%",
+          backgroundColor: "#3b82f6",
+          color: "white",
+          padding: "12px 16px",
+          borderRadius: "4px",
+          border: "none",
+          cursor: "pointer",
+          fontSize: "16px",
+          fontWeight: "bold",
+          marginTop: "12px",
+        }}
+        onMouseEnter={(e) => (e.target.style.backgroundColor = "#2563eb")}
+        onMouseLeave={(e) => (e.target.style.backgroundColor = "#3b82f6")}
       >
         Register
       </button>

@@ -1,0 +1,49 @@
+/* logout.css */
+
+.logout-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8fafc; /* светлый фон */
+  border: 1px solid #e2e8f0; /* мягкая граница */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logout-container h2 {
+  font-size: 24px;
+  color: #2d3748; /* тёмно-серый */
+  margin-bottom: 15px;
+}
+
+.logout-container p {
+  font-size: 16px;
+  color: #4a5568; /* серый для текста */
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #e53e3e; /* красный */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.logout-btn:hover {
+  background-color: #c53030;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.logout-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
