@@ -29,7 +29,7 @@ The project also includes diagrams and planning artifacts that illustrate the ap
 ## Technology Stack
 - **Backend:** Laravel 12, PHP 8.5  
 - **Frontend:** ReactJS, HTML5, CSS3, JavaScript  
-- **Database:** SQLite (for local development)  
+- **Database:** MYSQL  
 - **Build Tool:** Vite  
 - **Version Control:** Git & GitHub
 
