@@ -1,11 +1,11 @@
-/* logout.css */
+
 
 .logout-container {
   max-width: 400px;
   margin: 50px auto;
   padding: 30px;
-  background-color: #f8fafc; /* светлый фон */
-  border: 1px solid #e2e8f0; /* мягкая граница */
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -14,13 +14,13 @@
 
 .logout-container h2 {
   font-size: 24px;
-  color: #2d3748; /* тёмно-серый */
+  color: #2d3748;
   margin-bottom: 15px;
 }
 
 .logout-container p {
   font-size: 16px;
-  color: #4a5568; /* серый для текста */
+  color: #4a5568;
   margin-bottom: 20px;
 }
 
@@ -29,7 +29,7 @@
   font-size: 16px;
   font-weight: 600;
   color: white;
-  background-color: #e53e3e; /* красный */
+  background-color: #e53e3e;
   border: none;
   border-radius: 8px;
   cursor: pointer;

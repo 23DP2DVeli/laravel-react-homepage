@@ -11,13 +11,6 @@ import { AuthProvider } from "./context/AuthContext.jsx";
 export default function App() {
   return (
     <>
-      <nav className="bg-gray-800 text-white p-4">
-        <div className="max-w-6xl mx-auto flex gap-4">
-          <Link to="/">Home</Link>
-          <Link to="/register">Register</Link>
-          <Link to="/login">Login</Link>
-        </div>
-      </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
